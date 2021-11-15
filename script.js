@@ -122,7 +122,6 @@ const stringCheck = (myString) => {
       range = range + typs[i].length;
     }
   }
-
   return { str: countStrings, range };
 };
 
